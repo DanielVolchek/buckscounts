@@ -1,15 +1,62 @@
 /* 
   colors
-    white #f2f0eb;
+    #f2f0eb #f2f0eb;
     black #27251F
     lightgreen #00754a
     extralightgreen #d4e9e2
     darkgreen #1e3932
 */
+
+/* your code */
+
 * {
-  color: #27251F;
+  color: #27251f;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-/* your code */
+h1 {
+  color: #f2f0eb;
+  font-size: 3em;
+  margin: 0.25em;
+}
+
+body {
+  background: #1e3932;
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background: #aaaaaa;
+  font-size: 1.2em;
+  padding: 1em 0.5em;
+  margin-bottom: 1em;
+  border-radius: 3px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-items: space-evenly;
+  font-size: 1.25em;
+  border: solid 3px #f2f0eb;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.city-item {
+  background: #00754a;
+  text-align: end;
+  padding: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.city-item:last-child {
+  margin-bottom: 0;
+}
